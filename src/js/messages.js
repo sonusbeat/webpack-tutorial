@@ -1,3 +1,1 @@
-export function showAlert() {
-    alert('Hello Webpack 4');
-}
+export let showAlert = () => alert('Hello Webpack 4');
